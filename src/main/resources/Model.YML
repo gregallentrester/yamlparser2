@@ -1,0 +1,13 @@
+ordertype:
+   - HDP_RPH
+     cron: 0 0/3 * * *
+     offset: 3
+   - HDP_NON_RPH
+     cron: 0 0/3 * * *
+     offset: 3
+  - SMS_RPH
+    cron: 0 0/3 * * *
+    offset: 3
+  - SME_NON_RPH
+    cron: 0 0/3 * * *
+    offset: 3
